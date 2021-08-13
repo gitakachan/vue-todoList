@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div class="list border-gray">
+    <item></item>
+    <item></item>
     <item></item>
   </div>
 </template>
@@ -13,4 +15,10 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.list {
+
+  margin: 10px 0;
+  border-radius: 5px;
+}
+</style>
