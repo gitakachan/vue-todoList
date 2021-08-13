@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <main-header></main-header>
-    <list></list>
-    <main-footer></main-footer>
+    <h1>My todos</h1>
+    <div class="todoList">
+      <main-header></main-header>
+      <list></list>
+      <main-footer></main-footer>
+    </div>
   </div>
 </template>
 
@@ -20,4 +23,17 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-weight: 200;
+}
+.todoList {
+  width: 450px;
+  border: 1px solid rgb(176, 176, 176);
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+}
+</style>

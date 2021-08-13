@@ -1,6 +1,7 @@
 <template>
   <div>
-    item
+    <input type="checkbox" name="" id="" />
+    <label for="">study English</label>
   </div>
 </template>
 <script>
